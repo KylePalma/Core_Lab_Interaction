@@ -1,1 +1,1 @@
-# Core_Lab/Studio_Interaction
+# LabStudio_Interaction
