@@ -2,50 +2,54 @@ body {
 }
 
 h1 {
-    color: black;
-    margin-left: 20px;
-}
-
-/* The navigation bar */
-.navbar {
-    overflow: hidden;
-    background-color: none;
-    position: relative;
-    width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-.navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-}
-
-/* Change background on mouse-over */
-.navbar a:hover {
-    background: #ddd;
-    color: black;
+    color: white;
+    margin-left: 0px;
+    font-family: Arimo;
 }
 
 body {
 	font-size: 25px;
-	margin: 0;
-}
-* {
-    box-sizing: border-box;
-}
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
+	background-color: black;
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+}
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: none;
+    text-decoration: none;
+}
+
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
 }
