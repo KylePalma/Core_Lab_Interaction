@@ -1,0 +1,101 @@
+
+body {
+    background-color: white ;
+  }
+.container {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-top: 60px;  
+}
+/* drawing with shapes */
+.skull {
+	width: 300px;
+	height: 250px;
+	background: black;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+
+}
+
+.eye {
+  top: 110px;
+  left: 70px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: #3B3F4B;
+  position: absolute;
+  margin-bottom:30px; 
+  margin-left:-30px;
+
+}
+
+.eye:before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    border-radius: 100%;
+    left: 160px;
+    width: 60px;
+    height: 60px;
+    background: #3B3F4B;
+}
+
+  .nose {
+    width: 0;
+    height: 60px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid pink;
+    position: absolute;
+    top:20px;
+    left:110px;
+
+  }
+
+  .toothone {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 40px solid white;
+    position: absolute;
+    top:180px;
+    left:90px;
+}
+
+  .toothtwo {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 40px solid white;
+    position: absolute;
+    top:180px;
+    left:180px;
+}
+
+.earone {
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 60px solid black;
+    position: absolute;
+    top:-30px;
+    left:55px;
+}
+
+.eartwo {
+  width: 0;
+  height: 0;
+  border-left: 35px solid transparent;
+  border-right: 35px solid transparent;
+  border-bottom: 60px solid black;
+  position: absolute;
+  top:-30px;
+  left:175px;
+}
