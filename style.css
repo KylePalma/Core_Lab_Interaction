@@ -8,10 +8,12 @@ h1 {
 
 /* The navigation bar */
 .navbar {
+	
     overflow: hidden;
     background-color: none;
     position: relative;
-    width: 100%; /* Full width */
+    margin: 0 auto;
+    width: 780px;
 }
 
 /* Links inside the navbar */
