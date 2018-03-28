@@ -7,7 +7,15 @@ body {
     width: 400px;
     height: 400px;
     position: relative;
-    margin-top: 60px;  
+    margin-top: 60px;
+    animation-name: bat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+}
+
+@keyframes bat {
+   from {margin-top:0%;}
+   to {margin-top:3%;}
 }
 /* drawing with shapes */
 .skull {
@@ -98,4 +106,19 @@ body {
   position: absolute;
   top:-30px;
   left:175px;
+}
+/* annimations */
+
+.bounce {
+  font-family: 'Open Sans';
+  font-size: 4em;
+  color: #00789d;
+  animation-duration: 2s;
+  animation-name: zoomIn;
+  animation-timing-function: ease-in-out;
+  animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  animation-delay: 3s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  text-align: center;
 }
